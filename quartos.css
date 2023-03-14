@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color: #3d3d3d;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+    text-decoration: none;
+  }
+
+  #solteiro, #casal, #familia{
+    width: 100%;
+    padding: 60px 0px;
+    
+    
+}
+
+
+  .max-container{
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  
+  #topo{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 2px solid #d5d5d5;
+    top: 0;
+    z-index: 1;
+}   
+
+.content-topo{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+height: 10vh;
+}
+
+.link-logotipo{
+color: #3d3d3d;
+font-size: 2rem;
+}
+
+
+.link-logotipo span{
+color: #6592c9;
+}   
+
+nav a {
+color: #3d3d3d;
+padding: 0px 1rem;
+font-size: 1.2rem;
+}
+
+nav a:hover {
+border-bottom: 3px solid #6592c9;
+transform-origin: 1%;
+}
+/**/
+
+.titulo-galeria {
+    height: 30vh;
+    background-image: url(img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.secao-container{
+    text-align: center;
+}
+
+.secao-container h2{
+    font-size: 2.5rem;
+}
+
+.quartos-img{
+    width: 33%;
+    padding-bottom: 10px;
+    height: 219px;
+  }
+  
+  .quarto-informacoes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .quarto-informacoes li {
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+    
+  }
+
+/**/
+
+
+footer{
+    background-color: #0a9077b3;
+    margin-top: 20px;
+    box-shadow: -1px 0px 10px 10px white;
+
+    width: 100%;
+    color: white;
+}
+
+.rodape-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.rodape-content a{
+    color: #fff;
+}
+
+
+
+.rodape-content h4{
+    font-size: 1.5rem;
+    width: 200px;
+}
+.rodape-info{
+    display: flex;
+    align-items: center;
+
+    
+    gap: 10px;
+
+    width: calc((100% / 4) - 50px) ;
+}
+
+.rodape-copyright{
+    text-align: center;
+    border-top: 2px solid #0a9077b3;
+    
+    padding: 20px;
+}
+
+section div:last-of-type{
+    padding-bottom: 30px;
+}
